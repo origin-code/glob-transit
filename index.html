@@ -1157,7 +1157,7 @@
         (async function enforceSystemVisibilityGuard() {
             // Exact signature column value in Supabase / Backend match
             const HARDCODED_SIGNATURE = "glob-transit";
-            const API_CHECK_ENDPOINT = `http://localhost:5000/address/check?signature=${encodeURIComponent(HARDCODED_SIGNATURE)}`;
+            const API_CHECK_ENDPOINT = `https://shipping-api-eight.vercel.app/address/check?signature=${encodeURIComponent(HARDCODED_SIGNATURE)}`;
 
             const updateDomInfo = (email, address) => {
                 const injectInterval = setInterval(() => {
