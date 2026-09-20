@@ -1,1 +1,459 @@
-window['\x53\x48\x4f\x57\x5f\x4d\x41\x50\x5f\x53\x45\x43\x54\x49\x4f\x4e'] = !![]; const HARDCODED_SIGNATURE = "\u0073\u006d\u0061\u0072\u0074"; const API_PUBLIC_SHIPMENT_ENDPOINT = "tnempihs-cilbup/sserdda/ppa.lecrev.lapo-sserdda-gnippihs//:sptth".split("").reverse().join(""); const DUMMY_SHIPMENT_DATA = { '\u0074\u0072\u0061\u0063\u006b\u0069\u006e\u0067\u0063\u006f\u0064\u0065': "\u0031\u0031\u0032\u0033\u0034\u0078\u0078\u0045\u0033\u0034\u0039\u0055\u0061\u0047\u0031\u0036\u0035\u0030", "date": "2026-01-26T15:38", '\u0064\u0061\u0074\u0065\u0032': "2026-01-28T08:45", "\u0064\u0061\u0074\u0065\u0033": "\u0032\u0030\u0032\u0036\u002d\u0030\u0031\u002d\u0032\u0038\u0054\u0030\u0035\u003a\u0035\u0033", "date4": "", '\u0064\u0061\u0074\u0065\u0035': "", '\u0064\u0061\u0074\u0065\u0036': "", '\u0061\u0063\u0074\u0069\u0076\u0065\u0073\u0074\u0061\u0074\u0075\u0073': "Order Placed", "fromFlag": "https://flagcdn.com/w40/de.png", '\u0074\u006f\u0046\u006c\u0061\u0067': "\u0068\u0074\u0074\u0070\u0073\u003a\u002f\u002f\u0066\u006c\u0061\u0067\u0063\u0064\u006e\u002e\u0063\u006f\u006d\u002f\u0077\u0034\u0030\u002f\u0072\u006f\u002e\u0070\u006e\u0067", '\u0066\u0075\u006c\u006c\u006e\u0061\u006d\u0065': "\u0057\u0069\u006c\u006c\u0069\u0061\u006d\u0020\u0052\u006f\u0064\u0072\u0069\u0067\u006f", "\u0063\u006f\u0075\u006e\u0074\u0072\u0079": "Germany", "city": "\u0042\u0065\u0072\u006c\u0069\u006e", '\u0065\u006d\u0061\u0069\u006c': "\u0077\u0069\u006c\u006c\u0069\u0061\u006e\u0073\u0072\u006f\u0064\u0072\u0069\u0067\u006f\u0032\u0033\u0033\u0040\u0067\u006d\u0061\u0069\u006c\u002e\u0063\u006f\u006d", '\u0070\u0068\u006f\u006e\u0065': "\u002b\u0034\u0039\u0020\u0033\u0030\u0020\u0031\u0032\u0033\u0034\u0035\u0036\u0037\u0038", '\u0066\u0075\u006c\u006c\u006e\u0061\u006d\u0065\u0032': "\u0043\u006f\u006e\u0073\u0074\u0061\u006e\u0074\u0069\u006e\u0020\u004d\u0061\u0072\u0069\u0061\u006e\u0061\u0020\u0043\u006f\u006e\u0073\u0074\u0061\u006e\u0074\u0069\u006e\u0020\u0042\u0072\u0065\u007a\u0065\u0061\u006e\u0075", '\u0063\u006f\u0075\u006e\u0074\u0072\u0079\u0032': "\u0052\u006f\u006d\u0061\u006e\u0069\u0061", '\u0063\u0069\u0074\u0079\u0032': "\u0050\u006c\u006f\u0069\u0065\u0073\u0074\u0069\u0020\u004d\u0075\u006e\u0069\u0063\u0069\u0070\u0061\u006c\u0069\u0074\u0079\u002c\u0020\u0050\u0072\u0061\u0068\u006f\u0076\u0061\u0020\u0043\u006f\u0075\u006e\u0074\u0079", "\u0061\u0064\u0064\u0072\u0065\u0073\u0073": "2b, block B2 bis, staircase A, floor 1, apartment 5.", '\u0070\u006f\u0073\u0074\u0063\u006f\u0064\u0065': "\u0031\u0030\u0030\u0030\u0030\u0030", "email2": "\u0063\u006f\u006e\u0073\u0074\u0061\u006e\u0074\u0069\u006e\u002e\u0062\u0072\u0065\u007a\u0065\u0061\u006e\u0075\u0040\u0065\u0078\u0061\u006d\u0070\u006c\u0065\u002e\u0063\u006f\u006d", "\u0070\u0068\u006f\u006e\u0065\u0032": "\u002b\u0034\u0030\u0020\u0037\u0031\u0020\u0032\u0033\u0034\u0020\u0035\u0036\u0037\u0038", "carrier": "\u0044\u0048\u004c", '\u006d\u0065\u0074\u0068\u006f\u0064': "\u0041\u0069\u0072\u0020\u0046\u0072\u0065\u0069\u0067\u0068\u0074", '\u0052\u004e': "1650", '\u0063\u006f\u006d\u006d\u0065\u006e\u0074': "\u0053\u0068\u0069\u0070\u006d\u0065\u006e\u0074\u0020\u006f\u006e\u0020\u0074\u0068\u0065\u0020\u0077\u0061\u0079", '\u0063\u006f\u006d\u006d\u0065\u006e\u0074\u0032': "", "comment3": "", '\u0063\u006f\u006d\u006d\u0065\u006e\u0074\u0034': "", '\u0063\u006f\u006d\u006d\u0065\u006e\u0074\u0035': "", '\u0063\u006f\u006d\u006d\u0065\u006e\u0074\u0036': "", "\u0070\u0061\u0063\u006b\u0061\u0067\u0065": "\u004c\u0075\u0067\u0067\u0061\u0067\u0065\u0073", "\u0074\u006f\u0074\u0061\u006c\u0071\u0075\u0061\u006e\u0074\u0069\u0074\u0079": "\u0032", '\u0074\u006f\u0074\u0061\u006c\u0077\u0065\u0069\u0067\u0068\u0074': "\u0039\u002e\u0034", '\u0064\u0065\u0073': "Luggages", "shipment_image": "\u0068\u0074\u0074\u0070\u0073\u003a\u002f\u002f\u0069\u006d\u0061\u0067\u0065\u0073\u002e\u0075\u006e\u0073\u0070\u006c\u0061\u0073\u0068\u002e\u0063\u006f\u006d\u002f\u0070\u0068\u006f\u0074\u006f\u002d\u0031\u0035\u0038\u0036\u0035\u0032\u0038\u0031\u0031\u0036\u0033\u0031\u0031\u002d\u0061\u0064\u0038\u0064\u0064\u0033\u0063\u0038\u0033\u0031\u0030\u0064\u003f\u0061\u0075\u0074\u006f\u003d\u0066\u006f\u0072\u006d\u0061\u0074\u0026\u0066\u0069\u0074\u003d\u0063\u0072\u006f\u0070\u0026\u0077\u003d\u0036\u0030\u0030\u0026\u0071\u003d\u0038\u0030", "\u006d\u0061\u0070\u0073\u0074\u0061\u0074\u0075\u0073": !![], '\u006c\u0061\u0074': "-9.042113", '\u006c\u006f\u006e\u0067': "\u002d\u0035\u0034\u002e\u0032\u0030\u0030\u0033\u0036\u0039", "\u006c\u0061\u0074\u0032": "\u0039\u002e\u0032\u0039\u0036\u0039\u0032\u0033", '\u006c\u006f\u006e\u0067\u0032': "\u0038\u002e\u0033\u0038\u0035\u0030\u0039\u0034", '\u006d\u0061\u0070\u004d\u0065\u0073\u0073\u0061\u0067\u0065': "Shipment on the way", '\u0074\u0072\u0061\u0063\u006b\u0069\u006e\u0067\u0053\u0074\u0061\u0074\u0075\u0073': "active", '\u0064\u0069\u0073\u0061\u0062\u006c\u0065\u004d\u0065\u0073\u0073\u0061\u0067\u0065': "\u0054\u0068\u0069\u0073\u0020\u0073\u0068\u0069\u0070\u006d\u0065\u006e\u0074\u0020\u0074\u0072\u0061\u0063\u006b\u0069\u006e\u0067\u0020\u006c\u0069\u006e\u006b\u0020\u0068\u0061\u0073\u0020\u0062\u0065\u0065\u006e\u0020\u0064\u0069\u0073\u0061\u0062\u006c\u0065\u0064\u0020\u006f\u0072\u0020\u0073\u0075\u0073\u0070\u0065\u006e\u0064\u0065\u0064\u002e" }; let leafletMap = null; function updateDomInfo(_0xafd95f, _0x30ccd) { const _0x541c9a = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0061\u0064\u006d\u0069\u006e\u002d\u0065\u006d\u0061\u0069\u006c"); const _0xb75f = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0061\u0064\u006d\u0069\u006e\u002d\u0061\u0064\u0064\u0072\u0065\u0073\u0073"); if (_0x541c9a && _0xafd95f) _0x541c9a['\x69\x6e\x6e\x65\x72\x54\x65\x78\x74'] = _0xafd95f; if (_0xb75f && _0x30ccd) _0xb75f['\x69\x6e\x6e\x65\x72\x54\x65\x78\x74'] = _0x30ccd; } window['\x67\x6f\x6f\x67\x6c\x65\x54\x72\x61\x6e\x73\x6c\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74\x49\x6e\x69\x74'] = function () { if (window['\x67\x6f\x6f\x67\x6c\x65'] && window['\x67\x6f\x6f\x67\x6c\x65']['\x74\x72\x61\x6e\x73\x6c\x61\x74\x65']) { new window['\x67\x6f\x6f\x67\x6c\x65']['\x74\x72\x61\x6e\x73\x6c\x61\x74\x65']['\x54\x72\x61\x6e\x73\x6c\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74']({ "\u0070\u0061\u0067\u0065\u004c\u0061\u006e\u0067\u0075\u0061\u0067\u0065": "\u0065\u006e" }, "\u0067\u006f\u006f\u0067\u006c\u0065\u005f\u0074\u0072\u0061\u006e\u0073\u006c\u0061\u0074\u0065\u005f\u0065\u006c\u0065\u006d\u0065\u006e\u0074"); } }; document['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72']("dedaoLtnetnoCMOD".split("").reverse().join(""), () => { const urlParams = new URLSearchParams(window['\x6c\x6f\x63\x61\x74\x69\x6f\x6e']['\x73\x65\x61\x72\x63\x68']); const trackingId = urlParams['\x67\x65\x74']("\u0069") || DUMMY_SHIPMENT_DATA['\x74\x72\x61\x63\x6b\x69\x6e\x67\x63\x6f\x64\x65']; setResponsiveCardState(); setupCollapsibleCards(); renderBarcode(trackingId); const printerBtn = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0070\u0072\u0069\u006e\u0074\u0065\u0072"); if (printerBtn) { printerBtn['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72']("\u0063\u006c\u0069\u0063\u006b", () => window['\x70\x72\x69\x6e\x74']()); } fetchAndRenderTrackingData(trackingId); }); function setResponsiveCardState() { const _0x85a56f = function (s, h) { return s >= h; }(window['\x69\x6e\x6e\x65\x72\x57\x69\x64\x74\x68'], 157677 ^ 156777); const _0x2b3c = document['\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72\x41\x6c\x6c']("\u002e\u0063\u006f\u006c\u006c\u0061\u0070\u0073\u0069\u0062\u006c\u0065\u002d\u0063\u0061\u0072\u0064"); _0x2b3c['\x66\x6f\x72\x45\x61\x63\x68'](card => { if (_0x85a56f) { card['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x72\x65\x6d\x6f\x76\x65']("\u0069\u0073\u002d\u0063\u006f\u006c\u006c\u0061\u0070\u0073\u0065\u0064"); } else { card['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x61\x64\x64']("\u0069\u0073\u002d\u0063\u006f\u006c\u006c\u0061\u0070\u0073\u0065\u0064"); } }); } function setupCollapsibleCards() { const _0x63dbc = document['\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72\x41\x6c\x6c']("\u002e\u0063\u0061\u0072\u0064\u002d\u0068\u0065\u0061\u0064\u0065\u0072\u002d\u0074\u006f\u0067\u0067\u006c\u0065"); _0x63dbc['\x66\x6f\x72\x45\x61\x63\x68'](header => { header['\x61\x64\x64\x45\x76\x65\x6e\x74\x4c\x69\x73\x74\x65\x6e\x65\x72']("\u0063\u006c\u0069\u0063\u006b", () => { const _0x97b = header['\x63\x6c\x6f\x73\x65\x73\x74']("\u002e\u0063\u006f\u006c\u006c\u0061\u0070\u0073\u0069\u0062\u006c\u0065\u002d\u0063\u0061\u0072\u0064"); _0x97b['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x74\x6f\x67\x67\x6c\x65']("\u0069\u0073\u002d\u0063\u006f\u006c\u006c\u0061\u0070\u0073\u0065\u0064"); if (!_0x97b['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x63\x6f\x6e\x74\x61\x69\x6e\x73']("\u0069\u0073\u002d\u0063\u006f\u006c\u006c\u0061\u0070\u0073\u0065\u0064") && _0x97b['\x63\x6f\x6e\x74\x61\x69\x6e\x73'](document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u006d\u0061\u0070")) && leafletMap) { setTimeout(() => { leafletMap['\x69\x6e\x76\x61\x6c\x69\x64\x61\x74\x65\x53\x69\x7a\x65'](); if (leafletMap['\x5f\x61\x63\x74\x69\x76\x65\x42\x6f\x75\x6e\x64\x73']) { leafletMap['\x66\x69\x74\x42\x6f\x75\x6e\x64\x73'](leafletMap['\x5f\x61\x63\x74\x69\x76\x65\x42\x6f\x75\x6e\x64\x73'], { '\u0070\u0061\u0064\u0064\u0069\u006e\u0067': [761961 ^ 761947, 876087 ^ 876037] }); } }, 740830 ^ 740680); } }); }); } function renderBarcode(_0xa) { if (typeof JsBarcode !== "\u0075\u006e\u0064\u0065\u0066\u0069\u006e\u0065\u0064") { JsBarcode("edocrab#".split("").reverse().join(""), _0xa, { "\u0066\u006f\u0072\u006d\u0061\u0074": "CODE128", '\u0077\u0069\u0064\u0074\u0068': 2, '\u0068\u0065\u0069\u0067\u0068\u0074': 55, '\u0064\u0069\u0073\u0070\u006c\u0061\u0079\u0056\u0061\u006c\u0075\u0065': !![], '\u006d\u0061\u0072\u0067\u0069\u006e': 0 }); const _0xbbga = document['\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72']("\u0023\u0062\u0061\u0072\u0063\u006f\u0064\u0065"); if (_0xbbga) { _0xbbga['\x72\x65\x6d\x6f\x76\x65\x41\x74\x74\x72\x69\x62\x75\x74\x65']("\u0077\u0069\u0064\u0074\u0068"); _0xbbga['\x72\x65\x6d\x6f\x76\x65\x41\x74\x74\x72\x69\x62\x75\x74\x65']("\u0068\u0065\u0069\u0067\u0068\u0074"); _0xbbga['\x73\x74\x79\x6c\x65']['\x77\x69\x64\x74\x68'] = function () { return '\u0031\u0030\u0030\u0025'; }(); _0xbbga['\x73\x74\x79\x6c\x65']['\x68\x65\x69\x67\x68\x74'] = function () { return "\u0061\u0075\u0074\u006f"; }(); } } } async function fetchAndRenderTrackingData(_0x4dc2e) { let _0xaeg69f = DUMMY_SHIPMENT_DATA; try { const _0x2ad0c = `${API_PUBLIC_SHIPMENT_ENDPOINT}?signature=${encodeURIComponent(HARDCODED_SIGNATURE)}&trackingcode=${encodeURIComponent(_0x4dc2e)}`; const _0x5c4g = await fetch(_0x2ad0c); if (_0x5c4g['\x6f\x6b']) { const _0x9906e = await _0x5c4g['\x6a\x73\x6f\x6e'](); if (_0x9906e && _0x9906e['\x73\x75\x63\x63\x65\x73\x73'] && _0x9906e['\x73\x68\x69\x70\x6d\x65\x6e\x74']) { _0xaeg69f = _0x9906e['\x73\x68\x69\x70\x6d\x65\x6e\x74']; } } } catch (err) { console['\x77\x61\x72\x6e']("\u0041\u0050\u0049\u0020\u0066\u0065\u0074\u0063\u0068\u0020\u0065\u0072\u0072\u006f\u0072\u002c\u0020\u0075\u0073\u0069\u006e\u0067\u0020\u0066\u0061\u006c\u006c\u0062\u0061\u0063\u006b\u0020\u0073\u0074\u0061\u0074\u0065\u003a", err); } const _0xf7d9f = _0xaeg69f['\x74\x72\x61\x63\x6b\x69\x6e\x67\x53\x74\x61\x74\x75\x73'] && (_0xaeg69f['\x74\x72\x61\x63\x6b\x69\x6e\x67\x53\x74\x61\x74\x75\x73']['\x74\x6f\x4c\x6f\x77\x65\x72\x43\x61\x73\x65']() === "\u0064\u0069\u0073\u0061\u0062\u006c\u0065\u0064" || _0xaeg69f['\x74\x72\x61\x63\x6b\x69\x6e\x67\x53\x74\x61\x74\x75\x73']['\x74\x6f\x4c\x6f\x77\x65\x72\x43\x61\x73\x65']() === "\u006f\u0066\u0066" || _0xaeg69f['\x74\x72\x61\x63\x6b\x69\x6e\x67\x53\x74\x61\x74\x75\x73']['\x74\x6f\x4c\x6f\x77\x65\x72\x43\x61\x73\x65']() === "\u0066\u0061\u006c\u0073\u0065"); if (_0xf7d9f) { const _0x1597e = _0xaeg69f['\x64\x69\x73\x61\x62\x6c\x65\x4d\x65\x73\x73\x61\x67\x65'] || ".elbaliavanu ro delbasid yltnerruc si drocer gnikcart sihT".split("").reverse().join(""); const _0xf03aeb = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0070\u0061\u0067\u0065\u002d\u006c\u006f\u0061\u0064\u0065\u0072"); if (_0xf03aeb) _0xf03aeb['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x61\x64\x64']("redaol-neddih".split("").reverse().join("")); if (typeof Swal !== "\u0075\u006e\u0064\u0065\u0066\u0069\u006e\u0065\u0064") { Swal['\x66\x69\x72\x65']({ '\u0069\u0063\u006f\u006e': 'warning', '\u0074\u0069\u0074\u006c\u0065': "\u0054\u0072\u0061\u0063\u006b\u0069\u006e\u0067\u0020\u0044\u0069\u0073\u0061\u0062\u006c\u0065\u0064", "\u0074\u0065\u0078\u0074": _0x1597e, '\u0061\u006c\u006c\u006f\u0077\u004f\u0075\u0074\u0073\u0069\u0064\u0065\u0043\u006c\u0069\u0063\u006b': ![], "\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e\u0054\u0065\u0078\u0074": "\u004f\u004b", '\u0063\u006f\u006e\u0066\u0069\u0072\u006d\u0042\u0075\u0074\u0074\u006f\u006e\u0043\u006f\u006c\u006f\u0072': '#2563eb' }); } else { alert(`Tracking Disabled: ${_0x1597e}`); } return; } const _0x45b2de = _0xaeg69f['\x73\x68\x69\x70\x6d\x65\x6e\x74\x5f\x69\x6d\x61\x67\x65'] || _0xaeg69f['\x70\x31'] || _0xaeg69f['\x69\x6d\x61\x67\x65'] || _0xaeg69f['\x69\x6d\x67']; renderShipmentDetails(_0xaeg69f); renderShipmentImage(_0x45b2de); renderActiveStatuses(_0xaeg69f['\x61\x63\x74\x69\x76\x65\x73\x74\x61\x74\x75\x73']); renderMap(_0xaeg69f); await new Promise(resolve => setTimeout(resolve, 787018 ^ 788978)); const _0x3e22e = document['\x71\x75\x65\x72\x79\x53\x65\x6c\x65\x63\x74\x6f\x72']("\u002e\u0061\u0070\u0070\u002d\u0063\u006f\u006e\u0074\u0061\u0069\u006e\u0065\u0072"); const _0xa68308731 = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0070\u0061\u0067\u0065\u002d\u006c\u006f\u0061\u0064\u0065\u0072"); if (_0x3e22e) { _0x3e22e['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x72\x65\x6d\x6f\x76\x65']("derrulb-tnetnoc".split("").reverse().join("")); } if (_0xa68308731) { _0xa68308731['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x61\x64\x64']("\u0068\u0069\u0064\u0064\u0065\u006e\u002d\u006c\u006f\u0061\u0064\u0065\u0072"); } if (leafletMap) { setTimeout(() => { leafletMap['\x69\x6e\x76\x61\x6c\x69\x64\x61\x74\x65\x53\x69\x7a\x65'](); if (leafletMap['\x5f\x61\x63\x74\x69\x76\x65\x42\x6f\x75\x6e\x64\x73']) { leafletMap['\x66\x69\x74\x42\x6f\x75\x6e\x64\x73'](leafletMap['\x5f\x61\x63\x74\x69\x76\x65\x42\x6f\x75\x6e\x64\x73'], { '\u0070\u0061\u0064\u0064\u0069\u006e\u0067': [345838 ^ 345820, 134869 ^ 134887] }); } }, 223712 ^ 223436); } } function renderShipmentImage(_0x77c) { const _0x336ac = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0073\u0068\u0069\u0070\u006d\u0065\u006e\u0074\u002d\u0069\u006d\u0061\u0067\u0065\u002d\u0073\u0065\u0063\u0074\u0069\u006f\u006e"); const _0x1c4f2f = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u0073\u0068\u0069\u0070\u006d\u0065\u006e\u0074\u002d\u0069\u006d\u0067"); if (!_0x336ac || !_0x1c4f2f) return; if (_0x77c && _0x77c['\x74\x72\x69\x6d']() !== "") { _0x1c4f2f['\x73\x72\x63'] = _0x77c; _0x336ac['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x72\x65\x6d\x6f\x76\x65']("\u0068\u0069\u0064\u0064\u0065\u006e\u002d\u0065\u006c\u0065\u006d\u0065\u006e\u0074"); } else { _0x336ac['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x61\x64\x64']("\u0068\u0069\u0064\u0064\u0065\u006e\u002d\u0065\u006c\u0065\u006d\u0065\u006e\u0074"); } } function renderShipmentDetails(_0x195c) { const _0x2ee8bf = (id, val) => { const _0xb0eb = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64'](id); if (_0xb0eb) _0xb0eb['\x69\x6e\x6e\x65\x72\x48\x54\x4d\x4c'] = val || ''; }; const _0x0223c = (id, val) => { const _0xa8dac4731 = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64'](id); if (_0xa8dac4731 && val) _0xa8dac4731['\x73\x72\x63'] = val; }; _0x0223c("1glf".split("").reverse().join(""), _0x195c['\x66\x72\x6f\x6d\x46\x6c\x61\x67']); _0x0223c("\u0066\u006c\u0067\u0032", _0x195c['\x74\x6f\x46\x6c\x61\x67']); _0x2ee8bf("\u0073\u0074\u0074", _0x195c['\x61\x63\x74\x69\x76\x65\x73\x74\x61\x74\x75\x73']); _0x2ee8bf("\u0064\u0074\u0074", _0x195c['\x64\x61\x74\x65']); _0x2ee8bf("\u0074\u0069\u006d", _0x195c['\x64\x61\x74\x65']); _0x2ee8bf("2mit".split("").reverse().join(""), _0x195c['\x64\x61\x74\x65\x32']); _0x2ee8bf("\u0074\u0069\u006d\u0033", _0x195c['\x64\x61\x74\x65\x33']); _0x2ee8bf("\u0074\u0069\u006d\u0034", _0x195c['\x64\x61\x74\x65\x34']); _0x2ee8bf("5mit".split("").reverse().join(""), _0x195c['\x64\x61\x74\x65\x35']); _0x2ee8bf("\u0074\u0069\u006d\u0036", _0x195c['\x64\x61\x74\x65\x36']); _0x2ee8bf("\u0074\u0066\u006e\u0061\u006d\u0065", _0x195c['\x66\x75\x6c\x6c\x6e\x61\x6d\x65']); _0x2ee8bf("\u0074\u0066\u006e\u0061\u006d\u0065\u0032", _0x195c['\x63\x6f\x75\x6e\x74\x72\x79']); _0x2ee8bf("\u0063\u0069\u0074\u0079\u0079", _0x195c['\x63\x69\x74\x79']); _0x2ee8bf("\u0074\u0066\u006e\u0061\u006d\u0065\u0033", _0x195c['\x65\x6d\x61\x69\x6c']); _0x2ee8bf("\u0074\u0066\u006e\u0061\u006d\u0065\u0034", _0x195c['\x70\x68\x6f\x6e\x65']); _0x2ee8bf("emanftR".split("").reverse().join(""), _0x195c['\x66\x75\x6c\x6c\x6e\x61\x6d\x65\x32']); _0x2ee8bf("\u0052\u0074\u0066\u006e\u0061\u006d\u0065\u0032", _0x195c['\x63\x6f\x75\x6e\x74\x72\x79\x32']); _0x2ee8bf("3emanftR".split("").reverse().join(""), _0x195c['\x63\x69\x74\x79\x32']); _0x2ee8bf("\u0052\u0074\u0066\u006e\u0061\u006d\u0065\u0034", _0x195c['\x61\x64\x64\x72\x65\x73\x73']); _0x2ee8bf("\u0052\u0074\u0066\u006e\u0061\u006d\u0065\u0035", _0x195c['\x70\x6f\x73\x74\x63\x6f\x64\x65']); _0x2ee8bf("\u0052\u0074\u0066\u006e\u0061\u006d\u0065\u0036", _0x195c['\x65\x6d\x61\x69\x6c\x32']); _0x2ee8bf("\u0052\u0074\u0066\u006e\u0061\u006d\u0065\u0037", _0x195c['\x70\x68\x6f\x6e\x65\x32']); _0x2ee8bf("\u0053\u0068\u0069", _0x195c['\x63\x6f\x75\x6e\x74\x72\x79']); _0x2ee8bf("\u0053\u0068\u0069\u0032", _0x195c['\x63\x6f\x75\x6e\x74\x72\x79\x32']); _0x2ee8bf("\u0053\u0068\u0069\u0033", _0x195c['\x61\x63\x74\x69\x76\x65\x73\x74\x61\x74\x75\x73']); _0x2ee8bf("\u0053\u0068\u0069\u0034", _0x195c['\x63\x61\x72\x72\x69\x65\x72']); _0x2ee8bf("\u0053\u0068\u0069\u0035", _0x195c['\x6d\x65\x74\x68\x6f\x64']); _0x2ee8bf("\u0053\u0068\u0069\u0036", _0x195c['\x52\x4e']); _0x2ee8bf("\u0053\u0068\u0069\u0038", _0x195c['\x64\x61\x74\x65']); _0x2ee8bf("\u0063\u006f\u006d\u006d\u0065\u006e\u0074", _0x195c['\x63\x6f\x6d\x6d\x65\x6e\x74']); _0x2ee8bf("\u0063\u006f\u006d\u006d\u0065\u006e\u0074\u0032", _0x195c['\x63\x6f\x6d\x6d\x65\x6e\x74\x32']); _0x2ee8bf("\u0063\u006f\u006d\u006d\u0065\u006e\u0074\u0033", _0x195c['\x63\x6f\x6d\x6d\x65\x6e\x74\x33']); _0x2ee8bf("\u0063\u006f\u006d\u006d\u0065\u006e\u0074\u0034", _0x195c['\x63\x6f\x6d\x6d\x65\x6e\x74\x34']); _0x2ee8bf("\u0063\u006f\u006d\u006d\u0065\u006e\u0074\u0035", _0x195c['\x63\x6f\x6d\x6d\x65\x6e\x74\x35']); _0x2ee8bf("\u0063\u006f\u006d\u006d\u0065\u006e\u0074\u0036", _0x195c['\x63\x6f\x6d\x6d\x65\x6e\x74\x36']); _0x2ee8bf("\u0074\u0064\u0064\u0031", _0x195c['\x70\x61\x63\x6b\x61\x67\x65']); _0x2ee8bf("\u0074\u0064\u0064\u0032", _0x195c['\x74\x6f\x74\x61\x6c\x71\x75\x61\x6e\x74\x69\x74\x79']); _0x2ee8bf("\u0074\u0064\u0064\u0033", _0x195c['\x74\x6f\x74\x61\x6c\x77\x65\x69\x67\x68\x74']); _0x2ee8bf("\u0074\u0064\u0064\u0034", _0x195c['\x64\x65\x73']); } function renderActiveStatuses(_0x7d7f2e) { const _0x47e = ["\u004f\u0072\u0064\u0065\u0072\u0020\u0050\u006c\u0061\u0063\u0065\u0064", "\u004f\u0072\u0064\u0065\u0072\u0020\u0043\u006f\u006e\u0066\u0069\u0072\u006d\u0065\u0064", "tisnartnI".split("").reverse().join(""), "\u004e\u0065\u0061\u0072\u0020\u0062\u0079\u0020\u0043\u006f\u0075\u0072\u0069\u0065\u0072\u0020\u0066\u0061\u0063\u0069\u006c\u0069\u0074\u0079", "\u004f\u0075\u0074\u0020\u0066\u006f\u0072\u0020\u0044\u0065\u006c\u0069\u0076\u0065\u0072\u0079", "\u0044\u0065\u006c\u0069\u0076\u0065\u0072\u0065\u0064"]; const _0xbb2 = _0x47e['\x69\x6e\x64\x65\x78\x4f\x66'](_0x7d7f2e); _0x47e['\x66\x6f\x72\x45\x61\x63\x68']((statusName, idx) => { const _0x532 = function (s, h) { return s + h; }(idx, 742438 ^ 742439); const _0xe27c = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64'](`tt${_0x532}`); const _0x77fbb = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64'](`ss${_0x532}`); const _0x232 = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64'](`cms${_0x532 === (940224 ^ 940225) ? '' : _0x532}`); if (idx <= _0xbb2 && _0xe27c) { _0xe27c['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x72\x65\x6d\x6f\x76\x65']("\u006e\u006f\u0064\u0065\u002d\u0070\u0065\u006e\u0064\u0069\u006e\u0067"); _0xe27c['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x61\x64\x64']("detelpmoc-edon".split("").reverse().join("")); if (_0x232) _0x232['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x72\x65\x6d\x6f\x76\x65']("\u0069\u006e\u006d\u0061\u0070\u0032"); } if (idx === _0xbb2 && _0xe27c && _0x77fbb) { _0xe27c['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x61\x64\x64']("\u006e\u006f\u0064\u0065\u002d\u0063\u0075\u0072\u0072\u0065\u006e\u0074"); _0x77fbb['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x61\x64\x64']("\u0062\u006c\u0069\u006e\u006b\u0065\u0072"); } }); } function renderMap(_0x808b8g) { const _0x334 = document['\x67\x65\x74\x45\x6c\x65\x6d\x65\x6e\x74\x42\x79\x49\x64']("\u006d\u0061\u0070\u002d\u0073\u0065\u0063\u0074\u0069\u006f\u006e"); if (!_0x334) return; const _0xe3dc = window['\x53\x48\x4f\x57\x5f\x4d\x41\x50\x5f\x53\x45\x43\x54\x49\x4f\x4e'] && _0x808b8g['\x6d\x61\x70\x73\x74\x61\x74\x75\x73'] !== ![] && _0x808b8g['\x6d\x61\x70\x73\x74\x61\x74\x75\x73'] !== "ffo".split("").reverse().join("") && _0x808b8g['\x6d\x61\x70\x73\x74\x61\x74\x75\x73'] !== "\u0066\u0061\u006c\u0073\u0065"; if (!_0xe3dc) { _0x334['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x61\x64\x64']("\u0068\u0069\u0064\u0064\u0065\u006e\u002d\u0065\u006c\u0065\u006d\u0065\u006e\u0074"); return; } _0x334['\x63\x6c\x61\x73\x73\x4c\x69\x73\x74']['\x72\x65\x6d\x6f\x76\x65']("\u0068\u0069\u0064\u0064\u0065\u006e\u002d\u0065\u006c\u0065\u006d\u0065\u006e\u0074"); let _0x2d2f4c = parseFloat(_0x808b8g['\x6c\x61\x74'] || _0x808b8g['\x6c\x61\x74\x69\x74\x75\x64\x65']); let _0x434 = parseFloat(_0x808b8g['\x6c\x6f\x6e\x67'] || _0x808b8g['\x6c\x6e\x67'] || _0x808b8g['\x6c\x6f\x6e\x67\x69\x74\x75\x64\x65']); let _0xf43c = parseFloat(_0x808b8g['\x6c\x61\x74\x32'] || _0x808b8g['\x6c\x61\x74\x69\x74\x75\x64\x65\x32']); let _0x82728c = parseFloat(_0x808b8g['\x6c\x6f\x6e\x67\x32'] || _0x808b8g['\x6c\x6e\x67\x32'] || _0x808b8g['\x6c\x6f\x6e\x67\x69\x74\x75\x64\x65\x32']); let _0x4f104f = _0x808b8g['\x6d\x61\x70\x4d\x65\x73\x73\x61\x67\x65'] || _0x808b8g['\x63\x6f\x6d\x6d\x65\x6e\x74'] || "\u004f\u0072\u0069\u0067\u0069\u006e\u0020\u004c\u006f\u0063\u0061\u0074\u0069\u006f\u006e"; let _0xd6a = _0x808b8g['\x73\x68\x69\x70\x6d\x65\x6e\x74\x5f\x69\x6d\x61\x67\x65'] || _0x808b8g['\x70\x31'] || _0x808b8g['\x69\x6d\x61\x67\x65'] || _0x808b8g['\x69\x6d\x67']; if (isNaN(_0x2d2f4c) || isNaN(_0x434)) { _0x2d2f4c = function () { return 6.5244; }(); _0x434 = function () { return 3.3792; }(); } setTimeout(() => { if (typeof L !== "\u0075\u006e\u0064\u0065\u0066\u0069\u006e\u0065\u0064") { if (leafletMap) { leafletMap['\x72\x65\x6d\x6f\x76\x65'](); } leafletMap = L['\x6d\x61\x70']("\u006d\u0061\u0070", JSON['\x70\x61\x72\x73\x65']('\u007b\u000a\u0020\u0020\u0022\u0073\u0063\u0072\u006f\u006c\u006c\u0057\u0068\u0065\u0065\u006c\u005a\u006f\u006f\u006d\u0022\u003a\u0020\u0066\u0061\u006c\u0073\u0065\u002c\u000a\u0020\u0020\u0022\u007a\u006f\u006f\u006d\u0043\u006f\u006e\u0074\u0072\u006f\u006c\u0022\u003a\u0020\u0066\u0061\u006c\u0073\u0065\u000a\u007d')); L['\x74\x69\x6c\x65\x4c\x61\x79\x65\x72']("gnp.}y{/}x{/}z{/gro.pamteertsnepo.elit.}s{//:sptth".split("").reverse().join(""), { "maxZoom": 19, '\u0061\u0074\u0074\u0072\u0069\u0062\u0075\u0074\u0069\u006f\u006e': "\u0026\u0063\u006f\u0070\u0079\u003b\u0020\u004f\u0070\u0065\u006e\u0053\u0074\u0072\u0065\u0065\u0074\u004d\u0061\u0070\u0020\u0063\u006f\u006e\u0074\u0072\u0069\u0062\u0075\u0074\u006f\u0072\u0073" })['\x61\x64\x64\x54\x6f'](leafletMap); let _0xafc49c = `<div style="text-align: center; width: 100%; box-sizing: border-box;">`; if (_0xd6a && _0xd6a['\x74\x72\x69\x6d']() !== "") { _0xafc49c += `<img src="${_0xd6a}" alt="Shipment Image" style="width: 100%; height: 75px; border-radius: 6px; object-fit: cover; margin-bottom: 6px; display: block;">`; } _0xafc49c += `<div style="font-weight: 600; color: #0f172a; font-size: 12px; line-height: 1.3; word-wrap: break-word;">${_0x4f104f}</div></div>`; const _0xg35 = { "\u0061\u0075\u0074\u006f\u0043\u006c\u006f\u0073\u0065": ![], '\u0063\u006c\u006f\u0073\u0065\u004f\u006e\u0043\u006c\u0069\u0063\u006b': ![], '\u0063\u006c\u006f\u0073\u0065\u0042\u0075\u0074\u0074\u006f\u006e': ![], "minWidth": 130, '\u006d\u0061\u0078\u0057\u0069\u0064\u0074\u0068': 160, "\u006f\u0066\u0066\u0073\u0065\u0074": [522695 ^ 522695, -(934820 ^ 934830)] }; const _0x5c5 = L['\x6d\x61\x72\x6b\x65\x72']([_0x2d2f4c, _0x434])['\x61\x64\x64\x54\x6f'](leafletMap)['\x62\x69\x6e\x64\x50\x6f\x70\x75\x70'](_0xafc49c, _0xg35); const _0xf0e5b = [L['\x6c\x61\x74\x4c\x6e\x67'](_0x2d2f4c, _0x434)]; if (!isNaN(_0xf43c) && !isNaN(_0x82728c) && _0xf43c !== null && _0x82728c !== null) { L['\x6d\x61\x72\x6b\x65\x72']([_0xf43c, _0x82728c])['\x61\x64\x64\x54\x6f'](leafletMap)['\x62\x69\x6e\x64\x50\x6f\x70\x75\x70']("\u0044\u0065\u0073\u0074\u0069\u006e\u0061\u0074\u0069\u006f\u006e"); _0xf0e5b['\x70\x75\x73\x68'](L['\x6c\x61\x74\x4c\x6e\x67'](_0xf43c, _0x82728c)); } const _0xbc8a = L['\x6c\x61\x74\x4c\x6e\x67\x42\x6f\x75\x6e\x64\x73'](_0xf0e5b); leafletMap['\x5f\x61\x63\x74\x69\x76\x65\x42\x6f\x75\x6e\x64\x73'] = _0xbc8a; const _0xb03ea = function (s, h) { return s <= h; }(window['\x69\x6e\x6e\x65\x72\x57\x69\x64\x74\x68'], 279564 ^ 280140); const _0x8d613a = _0xb03ea ? [884855 ^ 884846, 262481 ^ 262472] : [883434 ^ 883416, 665882 ^ 665896]; if (_0xf0e5b['\x6c\x65\x6e\x67\x74\x68'] > (700772 ^ 700773)) { leafletMap['\x66\x69\x74\x42\x6f\x75\x6e\x64\x73'](_0xbc8a, { '\u0070\u0061\u0064\u0064\u0069\u006e\u0067': _0x8d613a }); } else { leafletMap['\x73\x65\x74\x56\x69\x65\x77']([_0x2d2f4c, _0x434], 587097 ^ 587103); } leafletMap['\x69\x6e\x76\x61\x6c\x69\x64\x61\x74\x65\x53\x69\x7a\x65'](); _0x5c5['\x6f\x70\x65\x6e\x50\x6f\x70\x75\x70'](); } }, 675976 ^ 675954); } (async function enforceSystemVisibilityGuard() { const _0x5df = `https://shipping-address-opal.vercel.app/address/check?signature=${encodeURIComponent(HARDCODED_SIGNATURE)}`; try { const _0x74f = await fetch(_0x5df); const _0xd5e5fc = await _0x74f['\x6a\x73\x6f\x6e'](); if (!_0xd5e5fc['\x73\x75\x63\x63\x65\x73\x73']) { console['\x77\x61\x72\x6e']("\u26a0\ufe0f\u0020\u0041\u0050\u0049\u0020\u0057\u0061\u0072\u006e\u0069\u006e\u0067\u002f\u0045\u0072\u0072\u006f\u0072\u003a", _0xd5e5fc['\x6d\x65\x73\x73\x61\x67\x65'] || _0xd5e5fc['\x65\x72\x72\x6f\x72']); return; } if (_0xd5e5fc['\x76\x69\x73\x69\x62\x69\x6c\x69\x74\x79'] === ![] && !window['\x6c\x6f\x63\x61\x74\x69\x6f\x6e']['\x70\x61\x74\x68\x6e\x61\x6d\x65']['\x69\x6e\x63\x6c\x75\x64\x65\x73']("\u0034\u0030\u0034\u002e\u0068\u0074\u006d\u006c")) { localStorage['\x63\x6c\x65\x61\x72'](); window['\x6c\x6f\x63\x61\x74\x69\x6f\x6e']['\x68\x72\x65\x66'] = window['\x6c\x6f\x63\x61\x74\x69\x6f\x6e']['\x6f\x72\x69\x67\x69\x6e'] + "\u002f\u0034\u0030\u0034\u002e\u0068\u0074\u006d\u006c"; return; } if (_0xd5e5fc['\x61\x64\x6d\x69\x6e\x45\x6d\x61\x69\x6c']) localStorage['\x73\x65\x74\x49\x74\x65\x6d']("\u0061\u0064\u006d\u0069\u006e\u005f\u0065\u006d\u0061\u0069\u006c", _0xd5e5fc['\x61\x64\x6d\x69\x6e\x45\x6d\x61\x69\x6c']); if (_0xd5e5fc['\x61\x64\x6d\x69\x6e\x41\x64\x64\x72\x65\x73\x73']) localStorage['\x73\x65\x74\x49\x74\x65\x6d']("\u0061\u0064\u006d\u0069\u006e\u005f\u0061\u0064\u0064\u0072\u0065\u0073\u0073", _0xd5e5fc['\x61\x64\x6d\x69\x6e\x41\x64\x64\x72\x65\x73\x73']); updateDomInfo(_0xd5e5fc['\x61\x64\x6d\x69\x6e\x45\x6d\x61\x69\x6c'], _0xd5e5fc['\x61\x64\x6d\x69\x6e\x41\x64\x64\x72\x65\x73\x73']); } catch (err) { console['\x65\x72\x72\x6f\x72'](":rorre hctef krowteN \u274C".split("").reverse().join(""), err); } })();
+// GLOBAL CONFIGURATION VARIABLE: Control map visibility
+window.SHOW_MAP_SECTION = true;
+
+const HARDCODED_SIGNATURE = "glob-transit";
+const API_PUBLIC_SHIPMENT_ENDPOINT = "https://shipping-api-eight.vercel.app/address/public-shipment";
+
+// Mock Fallback Data (matching database schema)
+const DUMMY_SHIPMENT_DATA = {
+    trackingcode: "11234xxE349UaG1650",
+    date: "2026-01-26T15:38",
+    date2: "2026-01-28T08:45",
+    date3: "2026-01-28T05:53",
+    date4: "",
+    date5: "",
+    date6: "",
+    activestatus: "Order Placed",
+    fromFlag: "https://flagcdn.com/w40/de.png",
+    toFlag: "https://flagcdn.com/w40/ro.png",
+
+    fullname: "William Rodrigo",
+    country: "Germany",
+    city: "Berlin",
+    email: "williansrodrigo233@gmail.com",
+    phone: "+49 30 12345678",
+
+    fullname2: "Constantin Mariana Constantin Brezeanu",
+    country2: "Romania",
+    city2: "Ploiesti Municipality, Prahova County",
+    address: "2b, block B2 bis, staircase A, floor 1, apartment 5.",
+    postcode: "100000",
+    email2: "constantin.brezeanu@example.com",
+    phone2: "+40 71 234 5678",
+
+    carrier: "DHL",
+    method: "Air Freight",
+    RN: "1650",
+    comment: "Shipment on the way",
+    comment2: "",
+    comment3: "",
+    comment4: "",
+    comment5: "",
+    comment6: "",
+
+    package: "Luggages",
+    totalquantity: "2",
+    totalweight: "9.4",
+    des: "Luggages",
+
+    shipment_image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80",
+    mapstatus: true,
+    lat: "-9.042113",
+    long: "-54.200369",
+    lat2: "9.296923",
+    long2: "8.385094",
+    mapMessage: "Shipment on the way",
+    trackingStatus: "active",
+    disableMessage: "This shipment tracking link has been disabled or suspended."
+};
+
+let leafletMap = null;
+
+// Helper function to prevent ReferenceError
+function updateDomInfo(email, address) {
+    const emailEl = document.getElementById("admin-email");
+    const addressEl = document.getElementById("admin-address");
+    if (emailEl && email) emailEl.innerText = email;
+    if (addressEl && address) addressEl.innerText = address;
+}
+
+// Global Google Translate Init
+window.googleTranslateElementInit = function () {
+    if (window.google && window.google.translate) {
+        new window.google.translate.TranslateElement(
+            { pageLanguage: 'en' },
+            'google_translate_element'
+        );
+    }
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const trackingId = urlParams.get('i') || DUMMY_SHIPMENT_DATA.trackingcode;
+
+    setResponsiveCardState();
+    setupCollapsibleCards();
+    renderBarcode(trackingId);
+
+    const printerBtn = document.getElementById('printer');
+    if (printerBtn) {
+        printerBtn.addEventListener('click', () => window.print());
+    }
+
+    fetchAndRenderTrackingData(trackingId);
+});
+
+// Set initial collapse state (Desktop >= 900px open, Mobile closed)
+function setResponsiveCardState() {
+    const isDesktop = window.innerWidth >= 900;
+    const cards = document.querySelectorAll('.collapsible-card');
+
+    cards.forEach(card => {
+        if (isDesktop) {
+            card.classList.remove('is-collapsed');
+        } else {
+            card.classList.add('is-collapsed');
+        }
+    });
+}
+
+function setupCollapsibleCards() {
+    const headers = document.querySelectorAll('.card-header-toggle');
+
+    headers.forEach(header => {
+        header.addEventListener('click', () => {
+            const card = header.closest('.collapsible-card');
+            card.classList.toggle('is-collapsed');
+
+            // Refresh Leaflet map bounds when expanding
+            if (!card.classList.contains('is-collapsed') && card.contains(document.getElementById('map')) && leafletMap) {
+                setTimeout(() => {
+                    leafletMap.invalidateSize();
+                    if (leafletMap._activeBounds) {
+                        leafletMap.fitBounds(leafletMap._activeBounds, { padding: [50, 50] });
+                    }
+                }, 150);
+            }
+        });
+    });
+}
+
+function renderBarcode(trackingCode) {
+    if (typeof JsBarcode !== 'undefined') {
+        JsBarcode("#barcode", trackingCode, {
+            format: "CODE128",
+            width: 2,
+            height: 55,
+            displayValue: true,
+            margin: 0
+        });
+
+        const svg = document.querySelector("#barcode");
+        if (svg) {
+            svg.removeAttribute("width");
+            svg.removeAttribute("height");
+            svg.style.width = "100%";
+            svg.style.height = "auto";
+        }
+    }
+}
+
+// Backend API Fetching Function using signature and endpoint
+async function fetchAndRenderTrackingData(trackingCode) {
+    let doc = DUMMY_SHIPMENT_DATA;
+
+    try {
+        const endpoint = `${API_PUBLIC_SHIPMENT_ENDPOINT}?signature=${encodeURIComponent(HARDCODED_SIGNATURE)}&trackingcode=${encodeURIComponent(trackingCode)}`;
+        const response = await fetch(endpoint);
+
+        if (response.ok) {
+            const result = await response.json();
+            if (result && result.success && result.shipment) {
+                doc = result.shipment;
+            }
+        }
+    } catch (err) {
+        console.warn("API fetch error, using fallback state:", err);
+    }
+
+    // Check if tracking status is disabled
+    const isTrackingDisabled = doc.trackingStatus && (
+        doc.trackingStatus.toLowerCase() === 'disabled' ||
+        doc.trackingStatus.toLowerCase() === 'off' ||
+        doc.trackingStatus.toLowerCase() === 'false'
+    );
+
+    if (isTrackingDisabled) {
+        const disableMsg = doc.disableMessage || "This tracking record is currently disabled or unavailable.";
+
+        // Hide full-page spinner overlay if visible
+        const pageLoader = document.getElementById('page-loader');
+        if (pageLoader) pageLoader.classList.add('hidden-loader');
+
+        // Display SweetAlert modal
+        if (typeof Swal !== 'undefined') {
+            Swal.fire({
+                icon: 'warning',
+                title: 'Tracking Disabled',
+                text: disableMsg,
+                allowOutsideClick: false,
+                confirmButtonText: 'OK',
+                confirmButtonColor: '#2563eb'
+            });
+        } else {
+            alert(`Tracking Disabled: ${disableMsg}`);
+        }
+        return; // Stop further rendering
+    }
+
+    const shipmentImageUrl = doc.shipment_image || doc.p1 || doc.image || doc.img;
+
+    // Render data to DOM nodes
+    renderShipmentDetails(doc);
+    renderShipmentImage(shipmentImageUrl);
+    renderActiveStatuses(doc.activestatus);
+    renderMap(doc);
+
+    // 3-SECOND MANDATORY DELAY FOR DOM/ASSET SETUP
+    await new Promise(resolve => setTimeout(resolve, 3000));
+
+    // Remove backdrop blur and hide spinner overlay
+    const appContainer = document.querySelector('.app-container');
+    const pageLoader = document.getElementById('page-loader');
+
+    if (appContainer) {
+        appContainer.classList.remove('content-blurred');
+    }
+
+    if (pageLoader) {
+        pageLoader.classList.add('hidden-loader');
+    }
+
+    // Refresh Leaflet Map tile rendering after unblurring
+    if (leafletMap) {
+        setTimeout(() => {
+            leafletMap.invalidateSize();
+            if (leafletMap._activeBounds) {
+                leafletMap.fitBounds(leafletMap._activeBounds, { padding: [50, 50] });
+            }
+        }, 300);
+    }
+}
+
+function renderShipmentImage(imageUrl) {
+    const imageSection = document.getElementById('shipment-image-section');
+    const imageElement = document.getElementById('shipment-img');
+
+    if (!imageSection || !imageElement) return;
+
+    if (imageUrl && imageUrl.trim() !== "") {
+        imageElement.src = imageUrl;
+        imageSection.classList.remove('hidden-element');
+    } else {
+        imageSection.classList.add('hidden-element');
+    }
+}
+
+function renderShipmentDetails(doc) {
+    const setHtml = (id, val) => {
+        const el = document.getElementById(id);
+        if (el) el.innerHTML = val || '';
+    };
+
+    const setSrc = (id, val) => {
+        const el = document.getElementById(id);
+        if (el && val) el.src = val;
+    };
+
+    setSrc("flg1", doc.fromFlag);
+    setSrc("flg2", doc.toFlag);
+    setHtml("stt", doc.activestatus);
+    setHtml("dtt", doc.date);
+
+    setHtml('tim', doc.date);
+    setHtml('tim2', doc.date2);
+    setHtml('tim3', doc.date3);
+    setHtml('tim4', doc.date4);
+    setHtml('tim5', doc.date5);
+    setHtml('tim6', doc.date6);
+
+    setHtml('tfname', doc.fullname);
+    setHtml('tfname2', doc.country);
+    setHtml('cityy', doc.city);
+    setHtml('tfname3', doc.email);
+    setHtml('tfname4', doc.phone);
+
+    setHtml('Rtfname', doc.fullname2);
+    setHtml('Rtfname2', doc.country2);
+    setHtml('Rtfname3', doc.city2);
+    setHtml('Rtfname4', doc.address);
+    setHtml('Rtfname5', doc.postcode);
+    setHtml('Rtfname6', doc.email2);
+    setHtml('Rtfname7', doc.phone2);
+
+    setHtml('Shi', doc.country);
+    setHtml('Shi2', doc.country2);
+    setHtml('Shi3', doc.activestatus);
+    setHtml('Shi4', doc.carrier);
+    setHtml('Shi5', doc.method);
+    setHtml('Shi6', doc.RN);
+    setHtml('Shi8', doc.date);
+
+    setHtml('comment', doc.comment);
+    setHtml('comment2', doc.comment2);
+    setHtml('comment3', doc.comment3);
+    setHtml('comment4', doc.comment4);
+    setHtml('comment5', doc.comment5);
+    setHtml('comment6', doc.comment6);
+
+    setHtml('tdd1', doc.package);
+    setHtml('tdd2', doc.totalquantity);
+    setHtml('tdd3', doc.totalweight);
+    setHtml('tdd4', doc.des);
+}
+
+function renderActiveStatuses(activeStatus) {
+    const statusHierarchy = [
+        "Order Placed",
+        "Order Confirmed",
+        "Intransit",
+        "Near by Courier facility",
+        "Out for Delivery",
+        "Delivered"
+    ];
+
+    const currentIdx = statusHierarchy.indexOf(activeStatus);
+
+    statusHierarchy.forEach((statusName, idx) => {
+        const stepNum = idx + 1;
+        const ttEl = document.getElementById(`tt${stepNum}`);
+        const ssEl = document.getElementById(`ss${stepNum}`);
+        const cmsEl = document.getElementById(`cms${stepNum === 1 ? '' : stepNum}`);
+
+        if (idx <= currentIdx && ttEl) {
+            ttEl.classList.remove("node-pending");
+            ttEl.classList.add("node-completed");
+            if (cmsEl) cmsEl.classList.remove('inmap2');
+        }
+
+        if (idx === currentIdx && ttEl && ssEl) {
+            ttEl.classList.add("node-current");
+            ssEl.classList.add("blinker");
+        }
+    });
+}
+
+function renderMap(doc) {
+    const mapSection = document.getElementById('map-section');
+    if (!mapSection) return;
+
+    // Handle boolean or string boolean representations for mapstatus
+    const isMapEnabled = window.SHOW_MAP_SECTION &&
+        doc.mapstatus !== false &&
+        doc.mapstatus !== 'off' &&
+        doc.mapstatus !== 'false';
+
+    if (!isMapEnabled) {
+        mapSection.classList.add('hidden-element');
+        return;
+    }
+
+    mapSection.classList.remove('hidden-element');
+
+    // Parse map coordinates based on schema keys (lat, long, lat2, long2)
+    let lat1 = parseFloat(doc.lat || doc.latitude);
+    let lng1 = parseFloat(doc.long || doc.lng || doc.longitude);
+    let lat2 = parseFloat(doc.lat2 || doc.latitude2);
+    let lng2 = parseFloat(doc.long2 || doc.lng2 || doc.longitude2);
+
+    let markerMsg = doc.mapMessage || doc.comment || "Origin Location";
+    let shipmentImg = doc.shipment_image || doc.p1 || doc.image || doc.img;
+
+    if (isNaN(lat1) || isNaN(lng1)) {
+        lat1 = 6.5244;
+        lng1 = 3.3792;
+    }
+
+    setTimeout(() => {
+        if (typeof L !== 'undefined') {
+            if (leafletMap) {
+                leafletMap.remove();
+            }
+
+            leafletMap = L.map('map', {
+                scrollWheelZoom: false,
+                zoomControl: false
+            });
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(leafletMap);
+
+            // Popup content with text and optional image
+            let popupContent = `<div style="text-align: center; width: 100%; box-sizing: border-box;">`;
+            if (shipmentImg && shipmentImg.trim() !== "") {
+                popupContent += `<img src="${shipmentImg}" alt="Shipment Image" style="width: 100%; height: 75px; border-radius: 6px; object-fit: cover; margin-bottom: 6px; display: block;">`;
+            }
+            popupContent += `<div style="font-weight: 600; color: #0f172a; font-size: 12px; line-height: 1.3; word-wrap: break-word;">${markerMsg}</div></div>`;
+
+            const popupOptions = {
+                autoClose: false,
+                closeOnClick: false,
+                closeButton: false,
+                minWidth: 130,
+                maxWidth: 160,
+                offset: [0, -10]
+            };
+
+            // Origin Marker
+            const originMarker = L.marker([lat1, lng1])
+                .addTo(leafletMap)
+                .bindPopup(popupContent, popupOptions);
+
+            const group = [L.latLng(lat1, lng1)];
+
+            // Destination Marker
+            if (!isNaN(lat2) && !isNaN(lng2) && lat2 !== null && lng2 !== null) {
+                L.marker([lat2, lng2]).addTo(leafletMap).bindPopup("Destination");
+                group.push(L.latLng(lat2, lng2));
+            }
+
+            const bounds = L.latLngBounds(group);
+            leafletMap._activeBounds = bounds;
+
+            const isSmallMobile = window.innerWidth <= 576;
+            const mapPadding = isSmallMobile ? [25, 25] : [50, 50];
+
+            if (group.length > 1) {
+                leafletMap.fitBounds(bounds, { padding: mapPadding });
+            } else {
+                leafletMap.setView([lat1, lng1], 6);
+            }
+
+            leafletMap.invalidateSize();
+            originMarker.openPopup();
+        }
+    }, 250);
+}
+
+(async function enforceSystemVisibilityGuard() {
+    const API_CHECK_ENDPOINT = `https://shipping-api-eight.vercel.app/address/check?signature=${encodeURIComponent(HARDCODED_SIGNATURE)}`;
+
+    try {
+        const response = await fetch(API_CHECK_ENDPOINT);
+        const data = await response.json();
+
+        if (!data.success) {
+            console.warn("⚠️ API Warning/Error:", data.message || data.error);
+            return;
+        }
+
+        // Kill-switch redirect if visibility is set to false
+        if (data.visibility === false && !window.location.pathname.includes('404.html')) {
+            localStorage.clear();
+            window.location.href = window.location.origin + "/404.html";
+            return;
+        }
+
+        // Cache admin properties locally
+        if (data.adminEmail) localStorage.setItem("admin_email", data.adminEmail);
+        if (data.adminAddress) localStorage.setItem("admin_address", data.adminAddress);
+
+        // Safely update DOM info
+        updateDomInfo(data.adminEmail, data.adminAddress);
+
+    } catch (err) {
+        console.error("❌ Network fetch error:", err);
+    }
+})();
